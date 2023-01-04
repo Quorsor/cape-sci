@@ -1,0 +1,240 @@
+.branch {
+    box-sizing: border-box;
+
+position: absolute;
+width: 18.985916%;
+height: 78.76858%;
+left: 1.4647887%;
+top: 17.515923%;
+
+background: linear-gradient(133.48deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 311.11%);
+border: 1px solid rgba(255, 255, 255, 0.3);
+border-radius: 50px;
+}
+.branch-header {
+    position: absolute;
+    width: 100%;
+    height: 13.5%;
+    left: 0%;
+    top: 0%;
+    
+    background: rgba(101, 221, 248, 0.2);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(25px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 50px 50px 0px 0px;
+    }
+    
+    /* chemistry */
+    .branch-text {
+    position: absolute;
+    width: 69.139465%;
+    height: 7.6819406%;
+    left: 15.430267%;
+    top: 12%;
+    
+    font-family: 'Bison';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    }
+    
+/* Lesson 5 */
+.L5-button {
+box-sizing: border-box;
+
+position: absolute;
+width: 91.39465%;
+height: 9.973046%;
+left: 4.1543026%;
+top: 72.37196%;
+
+background: rgba(101, 221, 248, 0.2);
+border: 1px solid rgba(101, 221, 248, 0.5);
+backdrop-filter: blur(2px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 50px;
+}
+
+/* Lesson 5 */
+.L5-button-text {
+
+font-family: 'Bison';
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+/* Lesson 4 */
+.L4-button {
+box-sizing: border-box;
+
+position: absolute;
+width: 91.39465%;
+height: 9.973046%;
+left: 4.1543026%;
+top: 61.051212%;
+
+background: rgba(101, 221, 248, 0.2);
+border: 1px solid rgba(101, 221, 248, 0.5);
+backdrop-filter: blur(2px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 50px;
+}
+
+/* Lesson 4 */
+.L4-button-text {
+
+font-family: 'Bison';
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+/* Lesson 3 */
+.L3-button {
+box-sizing: border-box;
+
+position: absolute;
+width: 91.39465%;
+height: 9.973046%;
+left: 4.1543026%;
+top: 49.595688%;
+
+background: rgba(101, 221, 248, 0.2);
+border: 1px solid rgba(101, 221, 248, 0.5);
+backdrop-filter: blur(2px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 50px;
+}
+
+/* Lesson 3 */
+.L3-button-text {
+
+font-family: 'Bison';
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+/* Lesson 2 */
+.L2-button {
+box-sizing: border-box;
+
+position: absolute;
+width: 91.39465%;
+height: 9.973046%;
+left: 4.1543026%;
+top: 38.140163%;
+
+background: rgba(101, 221, 248, 0.2);
+border: 1px solid rgba(101, 221, 248, 0.5);
+backdrop-filter: blur(2px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 50px;
+}
+
+/* Lesson 2 */
+.L2-button-text {
+
+font-family: 'Bison';
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+/* Lesson 1 */
+.L1-button {
+box-sizing: border-box;
+
+position: absolute;
+width: 91.39465%;
+height: 9.973046%;
+left: 4.1543026%;
+top: 26.684635%;
+
+background: rgba(101, 221, 248, 0.2);
+border: 1px solid rgba(101, 221, 248, 0.5);
+backdrop-filter: blur(2px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 50px;
+}
+
+/* Lesson 1 */
+.L1-button-text {
+
+font-family: 'Bison';
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+/* Overview */
+.OV-button {
+box-sizing: border-box;
+
+position: absolute;
+width: 91.39465%;
+height: 9.973046%;
+left: 4.1543026%;
+top: 15.229111%;
+
+background: rgba(101, 221, 248, 0.2);
+border: 1px solid rgba(101, 221, 248, 0.5);
+backdrop-filter: blur(2px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 50px;
+}
+
+/* overview */
+.OV-button-text {
+
+font-family: 'Bison';
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #FFFFFF;
+}
+/* Overview */
+.overview {
+box-sizing: border-box;
+
+position: absolute;
+width: 76.676056%;
+height: 78.76858%;
+left: 21.859156%;
+top: 17.515923%;
+
+background: linear-gradient(103.28deg, rgba(255, 255, 255, 0.1) -20.98%, rgba(255, 255, 255, 0) 100%);
+border: 1px solid rgba(255, 255, 255, 0.3);
+border-radius: 50px;
+}

@@ -1,0 +1,128 @@
+/* Homepage */
+html {
+background: url(../images/Sciencehdbg.jpg) no-repeat;
+background-size: cover;
+mix-blend-mode: normal;
+}
+
+/* Section */
+.section {
+    position: absolute;
+    width: 92.44792%;
+    height: 87.22222%;
+    left: 3.7500002%;
+    top: 6.3888893%;
+
+    box-sizing: border-box;
+
+    background: linear-gradient(105.83deg, rgba(255, 255, 255, 0.25) 0.53%, rgba(255, 255, 255, 0) 100%);
+    mix-blend-mode: normal;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 50px;
+}
+
+/* Header */
+.header1 {
+    position: absolute;
+    height: 13%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+
+    background: rgba(101, 221, 248, 0.2);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(10px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 50px 50px 0px 0px;
+}
+
+/* C.A.P.E */
+.cape {
+    position: absolute;
+    width: 7.887324%;
+    height: 34.88372%;
+    left: 10%;
+    top: 30%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+/* LESSONS */
+.lessons {
+    position: absolute;
+    width: 10.535212%;
+    height: 34.88372%;
+    left: 55.605633%;
+    top: 30%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+/* EXERCISES */
+.exercise {
+    position: absolute;
+    width: 12.112677%;
+    height: 34.88372%;
+    left: 68%;
+    top: 30%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+/* CONTACT US */
+.contact {
+    position: absolute;
+    width: 15.492958%;
+    height: 34.88372%;
+    left: 81.746475%;
+    top: 30%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    text-decoration: none;
+
+    color: #FFFFFF;
+}
+
+/* logo 1 */
+.logo {
+    position: absolute;
+    width: 4.50704%;
+    height: 62.1550%;
+    left: 4.61971%;
+    top: 18%;
+}
+/* 
+button ::hover {
+    background-color:#FFFFFF;
+} */

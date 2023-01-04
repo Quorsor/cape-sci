@@ -1,0 +1,74 @@
+/* Let's hop to the world of Science! */
+.text1 {
+position: absolute;
+width: 46.02817%;
+height: 8.704883%;
+left: 0%;
+top: 15%;
+
+font-family: 'Bison';
+font-style: normal;
+font-weight: 300;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. */
+.text2 {
+position: absolute;
+width: 95.830986%;
+height: 22.292994%;
+left: 2.253521%;
+top: 30%;
+
+font-family: 'Bison';
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 48px;
+text-align: justify;
+
+color: #FFFFFF;
+
+}
+
+/* Rectangle 1 */
+.start_learning {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 17.915493%;
+    height: 12.845011%;
+    left: 2.084507%;
+    top: 83.22717%;
+
+    text-align: center;
+    
+background: rgba(128, 10, 245, 0.7);
+mix-blend-mode: normal;
+border: 1px solid rgba(128, 10, 245, 0.5);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
+}
+.start_learning-text {
+
+    position: absolute;
+    width: 65.09434%;
+    height: 41.322315%;
+    left: 17.610064%;
+    top: 25%;
+
+    font-family: 'Bison';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-decoration: none;
+}
