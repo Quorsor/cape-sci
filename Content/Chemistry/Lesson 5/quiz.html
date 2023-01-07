@@ -1,39 +1,117 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="../../../CSS/base.css">
-        <link rel="stylesheet" href="../../../CSS/Content.css">
-        <link rel="shortcut icon" href="../../../images/icon.png" type="image/x-icon">
-        <title>CAPE</title>
-        <script src="./Javascript/Quiz.js"></script>
-    </head>
-    <body>
-        <section class="section">
-            <nav class="header1">
-                <a href="../../../index.html"><img alt="CAPE" src="../../../images/logo.png" class="logo"></a>
-                <a href="../../../index.html" class="cape">C.A.P.E</a>
-                <a href="../../../lesson-hub.html" class="lessons">LESSONS</a>
-                <a href="../../../exercise-hub.html" class="exercise">EXERCISES</a>
-                <a href="../../../contact.html" class="contact">CONTACT US</a>
-            </nav>
-            <nav class="branch">
-                <header class="branch-header">
-                    <a class="branch-text">CHEMISTRY</a>
-                </header>
-                <button onclick="to_question(5)" class="L5-button Button-text">Question 5</button>
-                <button onclick="to_question(4)" class="L4-button Button-text">Question 4</button>
-                <button onclick="to_question(3)" class="L3-button Button-text">Question 3</button>
-                <button onclick="to_question(2)" class="L2-button Button-text">Question 2</button>
-                <button onclick="to_question(1)" class="L1-button Button-text">Question 1</button>
-                <button onclick="to_question(0)" class="OV-button Button-text">Overview</button>
-            </nav>
-            <section class="overview">
-                <header class="OV-header">
-                    <section class="timer time-text">TIME LEFT<section class="time-frame time time-num">10</section>
-                    </section>
-                </header>
-            </section>
-            <button onclick="exit()" class="Exit-button Button-text">Exit</button>
-            <button onclick="next_que()" class="Next-button Button-text">Next Question</button>
-        </section>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../../images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="../../../CSS/exercise1.css">
+    <title>Exercise #1</title>
+    <script src="https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqbjNZcC1DZlczR3pHTm9zX3hPU012VFZnZndHd3xBQ3Jtc0tsekRhd1NDc1hVcWNIakJ3NUFtMUR3YkJsSTRpeTZRYTBZdEktcHljR2JsRlVZeGRvZndKWjI0UFpJVmRadHVHb0xpOURVMEhPWS1lcENQeTJYMVNUdWc0eVRWcnhTMXRPQUpac1ljM3h2RGV0LVBnTQ&q=https%3A%2F%2Fcdnjs.cloudflare.com%2Fajax%2Flibs%2Ffont-awesome%2F6.1.1%2Fcss%2Fall.min.css&stzid=Ugzz0zFQXPGzb4AcjuF4AaABAg"></script>
+    <link rel="stylesheet" href="../../../CSS/index.css">
+    <link rel="stylesheet" href="../../../CSS/navbar.css">
+    <link rel="stylesheet" href="../../../CSS/base.css">
+    <link rel="stylesheet" href="../../../CSS/Content.css">
+</head>
+<body>
+    <section class="home-main">
+        <nav>
+        <div class="brand">
+            <img src="../../../images/logo.png" alt="astonaut">
+            <a href="../../../index.html">CAPE</a>
+        </div>
+       
+        <ul>
+          <li><a href="../../../lesson-hub.html">Lessons</a></li>
+          <li><a href="../../../exercise-hub.html">Exercises</a></li>
+          <li><a href="../../../contact.html">Contact Us</a></li>
+        </ul>
+           
+         </nav> 
+    </section>
+    <!--Start Exercise Button -->
+    <div class="start_btn"><button>Start Exercise</button></div>
+
+    <!--Info Box-->
+    <div class="info_box">
+        <div class="info_title">
+            <span>
+                The Rules of this Exercise
+            </span>
+        </div>
+        <div class="info_list">
+            <div class="info">1. You will only have only <span>60 seconds</span> per each question.</div>
+            <div class="info">2. Once you select your answer, you can't reselect.</div>
+            <div class="info">3. You can't select any option once time goes off</div>
+            <div class="info">4. You can't exit from the Exercise while you're playing</div>
+            <div class="info">5. You'll get points on the basis of your correct answers</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Exercise</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+   <!--Exercise Box -->
+   <div class="exercise_box">
+    <header>
+        <div class="title">Exercise #1</div>
+        <div class="timer">
+            <div class="time_text">Time Left</div>
+            <div class="timer_sec">60</div>
+        </div>
+        <div class="time_line"></div>
+    </header>
+    <section>
+        <div class="que_text">
+           <!-- <span>Sino ro aton nga teacher sa Copro 4?</span> -->
+        </div>
+        <div class="option_list">
+           <!----<div class="option">
+                <span>Aila Shean Masinda Luna</span>
+                <div class="icon cross"><i class="fas fa-times"></i></div>
+            </div>
+            <div class="option">
+                <span>James Masinda</span>
+                <div class="icon cross"><i class="fas fa-times"></i></div>
+            </div>
+                <div class="option">
+                    <span>Jorlyn Molas</span>
+                    <div class="icon tick"><i class="fas fa-check"></i></div>
+                    </div>
+                    <div class="option">
+                        <span>Joana Mosquera</span>
+                        <div class="icon cross"><i class="fas fa-times"></i></div>
+                        </div> -->
+        </div>
+    </section>
+
+    <!--Exercise Box Footer -->
+    <footer>
+        <div class="total_que">
+           <!----<span><p>2 </p> <p>of</p> <p>5</p>Questions</span>-->
+        </div>
+        <button class="next_btn">Next Question</button>
+    </footer>
+   </div>
+   <!--Result Box-->
+   <div class="result_box">
+    <div class="icon">
+        <i class="fas fa-crown"></i>
+    </div>
+    <div class="complete_text">Congratulations for finishing the Exercise!</div>
+    <div class="score_text">
+      <!---<span>and sorry, You only got<p>2</p> <p>out of</p><p>5</p></span> -->
+    </div>
+    <div class="buttons">
+        <button class="restart">Try Again</button>
+        <button class="quit">Quit Exercise</button>
+    </div>
+   </div>
+   
+   <script src="Questions.js"></script>
+   <script src="../../../Javascript/Quiz.js"></script>
+
+
+</body>
 </html>

@@ -123,7 +123,7 @@ mix-blend-mode: normal;
     top: 18%;
 }
  
-start-learning, a ::hover {
+start-learning, a::hover {
     background-color:#FFFFFF;
 }
 
@@ -302,3 +302,28 @@ text-align: center;
 
 color: #FFFFFF;
 }
+
+/* width */
+::-webkit-scrollbar {
+    margin-right: -2%;
+    width: 15px;
+    border-radius: 50px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:rgba(255, 255, 255, 0.2) -20.98%;
+    border-radius: 50px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    width: 80%;
+    background: rgba(255, 255, 255, 0.3) -20.98%;
+    border-radius: 50px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 1) -20.98%;
+  }

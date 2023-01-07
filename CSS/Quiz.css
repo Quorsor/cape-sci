@@ -1,16 +1,16 @@
 /* Overview */
 .overview {
-box-sizing: border-box;
-
-position: absolute;
-width: 76.676056%;
-height: 67.09129%;
-left: 21.859156%;
-top: 15%;
-
-background: linear-gradient(103.28deg, rgba(255, 255, 255, 0.1) -20.98%, rgba(255, 255, 255, 0) 100%);
-border: 1px solid rgba(255, 255, 255, 0.3);
-border-radius: 50px;
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 76.676056%;
+    height: 67.09129%;
+    left: 21.859156%;
+    top: 16.5%;
+    
+    background: linear-gradient(103.28deg, rgba(255, 255, 255, 0.1) -20.98%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
 }
 
 /* Timer */
@@ -179,10 +179,61 @@ border-radius: 50px 50px 0px 0px;
 .OV-header-text {
 /* overview */
 position: absolute;
-width: 16.531961%;
-height: 64.64646%;
-left: 1.6899338%;
-top: 18.181818%;
+width: 16.5%;
+height: 64%;
+left: 1%;
+top: 20%;
+
+font-family: 'Bison';
+font-style: normal;
+font-weight: 300;
+font-size: 48px;
+line-height: 48px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.hide {
+    display: none;
+}
+.start {
+    /* next question */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 76.676056%;
+height: 9.023355%;
+left: 21.859156%;
+top: 87.26115%;
+
+background: rgba(101, 221, 248, 0.2);
+border: 1px solid rgba(101, 221, 248, 0.5);
+border-radius: 50px;
+}
+
+.padding {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 96%;
+    height: 50%;
+    left: 2%;
+    top: 20%;
+
+    overflow-y: auto;
+
+    color: white;
+}
+
+/* The rules of this exercise: */
+.rules {
+position: absolute;
+width: 90%;
+height: 5%;
+left: 3%;
+top: 5%;
 
 font-family: 'Bison';
 font-style: normal;
@@ -192,4 +243,51 @@ line-height: 58px;
 text-align: center;
 
 color: #FFFFFF;
+}
+
+.rule-details {
+/* 1. You will only have only 60 seconds per each question. 2. Once you select your answer, you can't reselect. 3. You can't select any option once time goes off. 4. You can't exit from the Exercise while you're playing. 5. You'll get points on the basis of your correct answers. */
+
+position: absolute;
+width: 90%;
+height: 304px;
+left: 10%;
+top: 20%;
+
+font-family: 'Bison';
+font-style: normal;
+font-weight: 300;
+font-size: 48px;
+line-height: 58px;
+
+color: #FFFFFF;
+
+}
+
+.buttons-layout {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 2%;
+    margin-bottom: 5%;
+}
+
+.choice-button {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 47.09772%;
+    height: 9.973046%;
+    left: 50.991917%;
+    top: 86%;
+
+    background: rgba(101, 221, 248, 0.2);
+    border: 1px solid rgba(101, 221, 248, 0.5);
+    border-radius: 50px;
+}
+
+.correct {
+    background-color: green;
+}
+.wrong {
+    background-color: red;
 }

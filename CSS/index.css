@@ -44,8 +44,6 @@ color: #FFFFFF;
     height: 12.845011%;
     left: 2.084507%;
     top: 83.22717%;
-
-    text-align: center;
     
 background: rgba(128, 10, 245, 0.7);
 mix-blend-mode: normal;
@@ -53,22 +51,194 @@ border: 1px solid rgba(128, 10, 245, 0.5);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 25px;
 }
-.start_learning-text {
 
-    position: absolute;
-    width: 65.09434%;
-    height: 41.322315%;
-    left: 17.610064%;
-    top: 25%;
+.start-text {
 
     font-family: 'Bison';
     font-style: normal;
     font-weight: 300;
     font-size: 40px;
     line-height: 48px;
-    text-align: center;
 
     color: #FFFFFF;
 
     text-decoration: none;
+}
+
+.home-main{
+    background-image: url(../Images/bg.jpg);
+       background-size: cover;
+       min-height: 100vh;
+   
+   }
+.main-content {
+color: #fff;
+position: absolute;
+top: 57%;
+left:50%;
+transform: translate(-50%, -50%);
+font-family: 'Times New Roman', Times, serif;
+
+
+}
+.glass {
+  background: rgba( 255, 255, 255, 0.15 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4.5px );
+  -webkit-backdrop-filter: blur( 4.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.main-content h1{
+    font-size: 3rem;
+    
+}
+.main-content p{
+    font-size:1.2rem;
+    margin:.5rem 0;
+}
+.gradient-btn{
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    color:#fff;
+    background-image: linear-gradient(
+    to right,
+    #4162cf 0%,
+    #0072ff 51%,
+    #4162cf 100%
+    );
+    border: radius 10px;
+    background-size: 200% auto;
+    transition: .3s ease-in-out;
+
+}
+.main-content .gradient-btn{
+    width: 200px;
+    height:45px;
+    margin-top: 1.5rem;
+    text-transform: uppercase;
+
+}
+.gradient-btn{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.gradient-btn:hover{
+    background-position: right center;
+}
+
+
+.about{
+    padding: 1rem;
+    text-align:center;
+
+}
+
+.about h1{
+    font-size: 3rem;
+    margin:1rem 0;
+
+}
+
+.about-sub{
+    display: flex;
+    max-width: 800px;
+    margin: 1rem auto;
+    text-align: left;
+}
+.about-sub > img{
+    max-height: 250px;
+    max-width:90%;
+    width: 300px;
+}
+.about-sub .sub-sub-about{
+    padding: 1rem;
+
+}
+.about-sub .gradient-btn{
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.about-sub .sub-sub-about p{
+    font-size: 14px;
+}
+.about-sub .sub-sub-about p{
+    padding:1rem;
+}
+.wrapper{
+    margin-top: 10%;
+}
+.wrapper h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+    margin-top: 50px;
+}
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+.team .team_members{
+    background:transparent;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: black;
+    position: relative;
+
+}
+.developers{
+    background-image: url(../Images/DevBg.jpg);
+    background-size: cover;
+    padding: 1rem;
+    text-align: center;
+    
+}
+.team .team_members p{
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.team .team_members h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 26px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    padding-top:10px;
+    font-weight: bold;
+    color: white;
+}
+.team .team_members p.role{
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin: 12px 0;
+    font-weight: bold;
+    
+}
+.team .team_members .team_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 30%;
+   
+   
+}
+.team .team_members .team_img img{
+width: 130px;
+height: 120px;
+}
+.main-content p{
+    font-weight: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
