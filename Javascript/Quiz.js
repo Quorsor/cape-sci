@@ -16,7 +16,7 @@ start_btn.onclick = () => {
 }
 //if Exit Button Clicked
 exit_btn.onclick = () => {
-    info_box.classList.remove("activeInfo"); //hide the info box
+    window.location.href = "../../../exercise-hub.html"; //hide the info box
 }
 //if Continue Button Clicked
 continue_btn.onclick = () => {
