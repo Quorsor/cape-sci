@@ -3,6 +3,9 @@
     src: url(../Fonts/Bison-Bold.ttf) format('truetype');
 }
 
+html {
+    overflow-y: scroll;
+}
 
 .branch {
     box-sizing: border-box;

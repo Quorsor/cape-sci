@@ -60,7 +60,7 @@ restart_exercise.onclick = () =>{
 }
 
 quit_exercise.onclick = (index) =>{
-    window.location.reload();
+    window.location.href = "../../../exercise-hub.html";
 }
 
 // if Next Button Clicked

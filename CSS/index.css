@@ -49,6 +49,11 @@ color: #FFFFFF;
     height: 12.845011%;
     left: 2.084507%;
     top: 83.22717%;
+
+    vertical-align: middle;
+    text-align: center;
+
+    text-decoration: none;
     
 background: rgba(128, 10, 245, 0.7);
 mix-blend-mode: normal;
@@ -64,9 +69,6 @@ border-radius: 25px;
     font-weight: 300;
     font-size: 40px;
     line-height: 48px;
-
-    vertical-align: middle;
-    text-align: center;
 
     color: #FFFFFF;
 

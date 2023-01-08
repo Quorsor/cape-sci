@@ -2,7 +2,7 @@
 var questions = [
     {
         numb:1,
-        question: "The most general definition of sound is?Sino ro aton nga teacher sa Copro 4?",
+        question: "The most general definition of sound is?",
         answer: "A.	Longitudinal wave",
         options: [
             "A.	Longitudinal wave",
