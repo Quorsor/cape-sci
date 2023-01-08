@@ -1,8 +1,7 @@
 @font-face {
     font-family: 'Bison';
-    src: url(../Fonts/Bison-Bold.ttf);
+    src: url(../Fonts/Bison-Bold.ttf) format('truetype');
 }
-
 
 nav{
   height: 70px;
