@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Bison';
+    src: url(../Fonts/Bison-Bold.ttf);
+}
+
 .overview {
     box-sizing: border-box;
     

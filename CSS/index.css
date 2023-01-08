@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Bison';
+    src: url(../Fonts/Bison-Bold.ttf);
+}
+
 /* Let's hop to the world of Science! */
 .text1 {
 position: absolute;
@@ -59,6 +64,9 @@ border-radius: 25px;
     font-weight: 300;
     font-size: 40px;
     line-height: 48px;
+
+    vertical-align: middle;
+    text-align: center;
 
     color: #FFFFFF;
 

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Bison';
+    src: url(../Fonts/Bison-Bold.ttf);
+}
+
 /* Homepage */
 html {
 background: url(../images/Sciencehdbg.jpg) no-repeat;
