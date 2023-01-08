@@ -12,21 +12,29 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #fff;
-    background: #2c2f48;
+/*     color: #fff;
+    background: #2c2f48; */
     justify-content: center;
 }
+.text {
+    color: fff;
+}
 .contact-container{
-    max-width: 960px;
-    margin:auto;
-    width:100%;
+    position: absolute;
+    left: 2%;
+    top: 16.5%;
+    height: 80%;
+    width: 96%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
     background: #363953;
     box-shadow: 0 0 1rem hsla(0 0 0 / 16%);
-    border-radius: 0.5rem;
     overflow: hidden;
+
+    background: linear-gradient(103.28deg, rgba(255, 255, 255, 0.1) -20.98%, rgba(255, 255, 255, 0) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
 
 }
 .form-container{
