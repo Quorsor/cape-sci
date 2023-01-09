@@ -210,14 +210,27 @@ border-radius: 50px;
 }
 
 
-@media screen and (max-width = 1000px) {
+@media only screen and (max-width = 768px) {
+    .chem-branch {
+        box-sizing: border-box;
+        
+        position: absolute;
+        width: 90% !important;
+        height: 80% !important;
+        left: 5% !important;
+        top: 17% !important;
+        
+        background: linear-gradient(133.48deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 311.11%);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 50px;
+        }
     .astro-branch {
         box-sizing: border-box;
         
         position: absolute;
-        width: 18.985916%;
-        height: 78.76858%;
-        left: 27.492958%;
+        width: 90%;
+        height: 80%;
+        left: 5%;
         top: 100%;
         
         background: linear-gradient(133.48deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 311.11%);
@@ -228,9 +241,9 @@ border-radius: 50px;
             box-sizing: border-box;
             
             position: absolute;
-            width: 18.985916%;
-            height: 78.76858%;
-            left: 53.521126%;
+            width: 90%;
+            height: 80%;
+            left: 5%;
             top: 200%;
             
             background: linear-gradient(133.48deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 311.11%);
@@ -241,9 +254,9 @@ border-radius: 50px;
                 box-sizing: border-box;
                 
                 position: absolute;
-                width: 18.985916%;
-                height: 78.76858%;
-                left: 79.54929%;
+                width: 90%;
+                height: 80%;
+                left: 5%;
                 top: 300%;
                 
                 background: linear-gradient(133.48deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 311.11%);
