@@ -3,6 +3,9 @@
     src: url(../Fonts/Bison-Bold.ttf) format('truetype');
 }
 
+*, *::after, *::before{
+  box-sizing: border-box}
+
 /* Homepage */
 html {
 background: url(../images/Sciencehdbg.jpg) no-repeat;
@@ -203,14 +206,33 @@ font-family: 'Bison';
 font-style: normal;
 font-weight: 300;
 font-size: 40px;
-line-height: 48px;
+line-height: 56px;
 text-align: center;
 
 text-decoration: none;
 
 color: #FFFFFF;
-}
 
+overflow: hidden;
+transition: all 100ms ease;
+}
+.Button-text:after {
+    width: 300%;
+    height: 300%;
+    left: -300%;
+    transform: rotate(45deg);
+    background-color: #f21170;
+    transition: all 100ms ease;
+  }
+.Button-text:hover::after {
+    left: -100%;
+  }
+  
+  .Button-text:hover {
+    border: 3px solid white;
+/*     background-color: blue; */
+  }
+  
 
 /* Lesson 4 */
 .L4-button {

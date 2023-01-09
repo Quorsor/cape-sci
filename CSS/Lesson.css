@@ -107,21 +107,6 @@ backdrop-filter: blur(2px);
 border-radius: 50px;
 }
 
-.Button-text {
-
-    font-family: 'Bison';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 40px;
-    line-height: 48px;
-    text-align: center;
-    
-    text-decoration: none;
-    
-    color: #FFFFFF;
-    }
-
-
 /* Lesson 4 */
 .L4-button {
 box-sizing: border-box;
@@ -210,7 +195,7 @@ border-radius: 50px;
 }
 
 
-@media screen and (max-width = 768px) {
+@media screen and (max-width: 768px) {
     .chem-branch {
         box-sizing: border-box;
         
@@ -244,7 +229,7 @@ border-radius: 50px;
             width: 90%;
             height: 80%;
             left: 5%;
-            top: 200%;
+            top: 183%;
             
             background: linear-gradient(133.48deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 311.11%);
             border: 1px solid rgba(255, 255, 255, 0.3);
@@ -257,7 +242,7 @@ border-radius: 50px;
                 width: 90%;
                 height: 80%;
                 left: 5%;
-                top: 300%;
+                top: 266%;
                 
                 background: linear-gradient(133.48deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 311.11%);
                 border: 1px solid rgba(255, 255, 255, 0.3);
