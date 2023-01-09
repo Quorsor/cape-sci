@@ -26,6 +26,8 @@ mix-blend-mode: normal;
     backdrop-filter: blur(10px);
     /* Note: backdrop-filter has minimal browser support */
     border-radius: 50px;
+
+    overflow-y: auto;
 }
 
 /* Header */
