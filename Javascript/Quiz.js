@@ -13,6 +13,7 @@ const option_list = document.querySelector(".option_list");
 //if Start Exercise Button Clicked
 start_btn.onclick = () => {
     info_box.classList.add("activeInfo"); //shows the info box
+    start_btn.classList.add("hide");
 }
 //if Exit Button Clicked
 exit_btn.onclick = () => {
@@ -27,6 +28,7 @@ continue_btn.onclick = () => {
     startTimer(60);
     startTimerLine(0);
 }
+
 let que_count = 0;
 let que_numb = 1;
 let counter;

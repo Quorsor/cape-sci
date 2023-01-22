@@ -63,7 +63,6 @@ border-radius: 25px;
 }
 
 .start-text {
-
     font-family: 'Bison';
     font-style: normal;
     font-weight: 300;
@@ -73,6 +72,13 @@ border-radius: 25px;
     color: #FFFFFF;
 
     text-decoration: none;
+}
+.start_learning:hover {
+    background: rgba(101, 221, 248, .8);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(10px);
+    /* Note: backdrop-filter has minimal browser support */
+    transition: 0.3s all linear;
 }
 
 .home-main{

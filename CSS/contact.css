@@ -50,6 +50,7 @@ body{
 .contact-form{
     display:grid;
     row-gap: 1rem;
+    padding-top: 2%;
 }
 .contact-form input, 
 .contact-form textarea,
@@ -77,13 +78,13 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
-.contact-form .send-button:hover{
+.contact-form .send-button:hover {
     background: hsl(181, 100%,44%, 0.8);
     transition: 0.3s all linear;
 }
-.map iframe{
+.map iframe {
     width: 100%;
-    height: 100% ;
+    height: 100%;
 }
 
 .team .team_members .team_img img{
@@ -98,26 +99,31 @@ body{
     justify-content: center;
 }
 .team .team_members{
-    background:transparent;
-    margin: 5px;
-    margin-bottom: 50px;
+    margin: 5px; 
+/*  background:transparent;  
+    margin-bottom: 50px; */
     width: 300px;
-    padding: 20px;
-    line-height: 20px;
+/*     padding: 20px;
+    line-height: 20px; */
     color: black;
     position: relative;
 
 }
 .developers{
-    background-image: url(../images/DevBg.jpg);
-    background-size: cover;
-    padding: 1rem;
     text-align: center;
 
     position:absolute;
-    top: 100%;
-    width: 100%;
-    
+    top: 0%;
+    width: 48%;
+    right: 0%;
+}
+.developers-2{
+    text-align: center;
+
+    position:absolute;
+    top: 45%;
+    width: 48%;
+    right: 0%;
 }
 .team .team_members p{
     color: #fff;
@@ -126,9 +132,8 @@ body{
 .team .team_members h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 26px;
-    margin-top: 60px;
+    padding-top: 10%;
     margin-bottom: 50px;
-    padding-top:10px;
     font-weight: bold;
     color: white;
 }
@@ -136,7 +141,7 @@ body{
     color: #fff;
     font-size: 17px;
     text-transform: uppercase;
-    margin: 12px 0;
+    margin: 4px 0;
     font-weight: bold;
     
 }
